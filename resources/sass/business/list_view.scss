@@ -1,0 +1,138 @@
+.sort-control{
+    @media screen and (max-width: 767px){
+        margin-top: 30px;
+    }
+    p{
+        font-size: .95rem;
+        b{
+            font-weight: 500;
+        }
+    }
+    ul{
+        float: right;
+        li{
+            float: left;
+            width: 35px;
+            height: 35px;
+            border: 1px solid rgba(204, 204, 204, 0.43);
+            border-radius: 5px;
+            text-align: center;
+            padding-top: 3px;
+            i{
+              font-size: 1.2rem;
+            }
+        }
+    }
+}
+
+.business-listing{
+    background-color: rgb(245, 245, 245);
+    padding-top: 20px;
+    padding-bottom: 50px;
+    .img-col{
+        padding: 9px;
+        margin: auto;
+        text-align: center;
+    }
+    .list-row{
+        margin: 0;
+        margin-bottom: 20px;
+        background-color: #FFF;
+    }
+    .detail-col{
+        padding: 20px;
+        padding-left: 10px;
+        padding-bottom: 0px;
+        .bofy-col{
+            
+            h2{
+                font-size: 1.2rem;
+                margin-bottom: 3px;
+            }
+            .verify{
+                color: #05ba2c;
+                font-size: 1.1rem;
+                font-weight: 600;
+            }
+            p{
+                margin-bottom: 13px;
+            }
+            ul{
+                display: inline-block;
+                width: 100%;
+                li{
+                    float:left;
+                    padding: 0px 5px;
+                    font-size: .9rem;
+                   
+                    font-weight: 500;
+                    i{
+                        margin-right: 3px;
+                    }
+                }
+                
+            }
+        }
+        .footcover{
+            border-top: 1px solid rgba(204, 204, 204, 0.44);
+            padding: 11px;
+            padding-bottom: 0px;
+            display: inline-block;
+            width: 100%;
+            li{
+               
+                width: auto;
+            }
+            .rev{
+                float: left;
+                padding-top: 3px;
+                i{
+                    color: #999;
+                    font-size: .95rem;
+                }
+                .act{
+                    color: #ffae00;
+                }
+            }
+            .save{
+                float: right;
+                padding: 5px;
+                
+                text-align: center;
+                background-color: rgba(204, 204, 204, 0.21);
+                border-radius: 50px;
+                width: 30px;
+                height: 30px;
+                margin-top: -26;
+                
+                i{
+                    color: rgb(247, 63, 80);
+                    font-size: .9rem;
+                    margin-right: 0px;
+                }
+                .bi-heart{
+                    color: #444;
+                }
+            }
+            
+        }
+    }
+    
+}
+.listpagin{
+    .page-item{
+        .page-link{
+            @media screen and (max-width:767.98px){
+                margin-left: 0px !important;
+            }
+        }
+    }
+}
+
+.listng-pagination{
+    .page-link{
+        border-radius: 50px !important;
+        margin: 0px 8px;
+        
+    }
+}

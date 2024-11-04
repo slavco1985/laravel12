@@ -1,0 +1,218 @@
+
+/* ===================================== Table Style CSS ================================== */
+
+.table{
+	tr {
+		th,td{
+			font-size: .9rem;
+		}
+	}
+}
+
+/* ===================================== Delet Box Style CSS ================================== */
+
+.remove-model{
+  h5{
+    
+    font-size: 1rem;
+  }
+  .vbn{
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .vvg{
+    border-right: 1px solid #CCC;
+  }
+}
+
+/* ===================================== Data Table CSS ================================== */
+
+.dataTables_filter{
+    margin-top: -37px;
+    margin-right: 10px;
+    input{
+        border: 1px solid #dadaf1;
+        font-size: 15px;
+        width: 330px;
+        height: 30px;
+        padding: .375rem 2.0rem .375rem .75rem;
+        background: #f7f7ff;
+    }
+}
+.dataTables_length{
+    label{
+        padding-top: 12px;
+        padding-left: 10px;
+        select{
+            border: 1px solid #dadaf1;
+            font-size: 15px;
+            width: 330px;
+            height: 30px;
+            padding: .375rem 2.0rem .375rem .75rem;
+            background: #f7f7ff;
+        }
+    }
+   
+}
+
+.dataTables_info{
+    max-width: 300px;
+    padding-left: 10px;
+    padding: 10px;
+    margin-top: -9px !important;
+}
+
+.dataTables_paginate{
+    max-width: 300px;
+    padding-right: 20px;
+    margin-top: -34px !important;
+    float: right ;
+    a{
+        padding: 5px;
+        font-size: 0.9rem;
+        cursor: pointer;
+        padding: .3rem .75rem;
+        margin-left: -1px;
+        line-height: 1.25;
+        color: #007bff;
+        background-color: #fff;
+        border: 1px solid #dee2e6;
+            border-top-color: rgba(222, 226, 230, 1);
+            border-right-color: rgba(222, 226, 230, 1);
+            border-bottom-color: rgba(222, 226, 230, 1);
+            border-left-color: rgba(222, 226, 230, 1);
+    }
+    .current{
+        color: #fff;
+        background-color: #007bff;
+        border-color: #007bff;
+    
+    }
+}
+.dataTable{
+    border-bottom: 1px solid #CCC;
+    margin-bottom: -5px !important;
+}
+.bgghn-err{
+    margin-top: -10px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+
+/* ===================================== Validation CSS ================================== */
+
+.smart-valid{
+	position: absolute;
+	width: 250px;
+	background-color: #fd3550;
+	left: 102%;
+	color: #FFF;
+	font-size: .9rem;
+	padding: 8px;
+	box-shadow: 0 2px 6px 0 rgba(218, 218, 253,  65%), 0 0px 6px 0 rgba(206, 206, 238, 54%);
+	border-radius: 2px;
+	margin-top: 9px;
+	padding-left: 18px;
+	display: none;
+	top:-11px;
+	z-index: 999;
+
+
+}
+@media screen and (max-width: 720px) {
+	.smart-valid{
+		position: absolute;
+		width: 250px;
+		background-color: #fd3550;
+		left: 70px !important;
+		color: #FFF;
+		font-size: 13px;
+		padding: 5px;
+		box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+		border-radius: 2px;
+		margin-top: 9px;
+		padding-left: 38px !important;
+		display: none;
+		top:-54px !important;
+		z-index: 999;
+	}
+	.smart-valid::before{
+		box-sizing: border-box;
+	    left: 5px !important;
+	    background-color: #fd3550;
+	    content: "";
+	    position: absolute;
+	    z-index: 100;
+	    height: 15px;
+		top: 12px !important;
+	    transform: rotate(135deg);
+	    width: 15px;
+	}
+}
+.smart-valid::before{
+	box-sizing: border-box;
+    left: -12px;
+    background-color: #fd3550;
+    content: "";
+    position: absolute;
+    z-index: 100;
+    height: 25px;
+	top: 6px;
+    transform: rotate(135deg);
+    width: 25px;
+
+}
+.in-err{
+	border:2px solid  #fd3550;
+}
+.smart-val-left{
+	right: 100%;
+	left: unset;
+}
+
+.smart-val-left::before{
+	left: unset;
+	right: -12px;
+}
+
+#login-err{
+  color: #c82333;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+}
+
+.alertify-notifier.ajs-right .ajs-message{
+    color:#FFF;
+}
+.alertify-notifier .ajs-message.ajs-success{
+    background-color:#15ca20;
+}
+
+.alertify-notifier.ajs-right .ajs-message.ajs-visible {
+    right: 260px;
+}
+.alertify-notifier.ajs-bottom {
+    top: 10px;
+}
+.alertify-notifier .ajs-message.ajs-visible{
+    margin-top: 2px;
+    font-size: .85rem;
+}
+.mand{
+    color:#e90219;
+    font-size: .95rem;
+}
+.mval{
+    top:3px;
+    box-shadow: none;
+}
+.pswd-alert{
+margin-top: -10px;
+padding: 10px;
+}
+

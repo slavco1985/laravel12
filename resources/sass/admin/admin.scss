@@ -1,0 +1,59 @@
+/* =======================================================================
+Template Name: Smart Admin
+Author:  SmartEye Technologies
+Author URI: www.smarteyeapps.com
+Version: 1.0
+coder name:Prabin Raja
+Description: This Template is created for Youtubers
+======================================================================= */
+
+// Bootstrap
+
+
+
+/* ===================================== Import Variable ================================== */
+@import 'variable';
+
+/* ===================================== Import Bootstrap ================================== */
+@import 'bootstrap/scss/bootstrap';
+
+/* ===================================== Import Basic ================================== */
+
+@import 'basic/basic';
+
+/* ===================================== Import Layout ================================== */
+
+@import 'components/layout';
+
+/* ===================================== Import Infocars ================================== */
+
+@import 'components/infocards';
+
+/* ===================================== Import Forms ================================== */
+
+@import 'components/form';
+
+/* ===================================== Import Widgets ================================== */
+
+@import 'components/widget';
+
+/* ===================================== Import Login ================================== */
+
+@import 'components/login';
+
+/* ===================================== Import Cards ================================== */
+
+@import 'components/cards';
+
+/* ===================================== Import Blog ================================== */
+
+@import 'components/blog';
+
+@import 'components/crope';
+
+
+@import 'simplebar/dist/simplebar.min.css';
+
+data-tool[image]{
+    display: none;
+}

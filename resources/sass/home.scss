@@ -1,0 +1,57 @@
+@import 'variables';
+
+@import 'bootstrap/scss/bootstrap';
+
+@import 'base/basic_setup';
+
+@import 'common/header';
+
+@import 'home/slider';
+
+@import 'home/featured_category';
+
+@import 'home/featured_listing';
+
+@import 'home/featured_city';
+
+@import 'common/blog_list';
+
+@import 'common/footer';
+
+@import 'business/list_view';
+
+@import 'business/filter';
+
+@import 'business/detail';
+
+@import 'business/overview';
+
+@import 'business/services';
+
+@import 'business/review';
+
+@import 'business/product';
+
+@import 'business/postedby';
+
+@import 'user/dashboard';
+
+@import 'user/auth';
+
+@import 'business/new_listing';
+
+@import 'user/crope';
+
+// @import '../../node_modules/@draft-js-plugins/static-toolbar/lib/plugin.css';
+
+
+.panel-card{
+    background-color: #FFF;
+    box-shadow: 0 4px 20px 1px rgba(0, 0, 0, 0.03), 0 1px 4px rgba(0, 0, 0, 0.04);
+    .panel-header{
+        padding: 8px;
+        border-bottom: 1px solid #CCC;
+        font-weight: 600;
+        font-size: .9rem;
+    }
+}

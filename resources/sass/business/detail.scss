@@ -1,0 +1,85 @@
+
+.sidecl{
+    @media screen and (max-width: 911px){
+        padding-left: 0px;
+    }
+    @media screen and (max-width: 767px){
+        padding-left: 10px;
+    }
+}
+.single-container{
+    padding-top: 30px;
+}
+.businesscover{
+    background-color: #FFF;
+    margin-bottom: 30px;
+    .imagecover{
+        img{
+            width: 100%;
+        }   
+    }
+    .business-info{
+        padding: 15px;
+        h2{
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+        p{
+
+        }
+    }
+    .more-info{
+        padding: 15px;
+        padding-top: 0px;
+        ul{
+            display: inline-block;
+            width: 100%;
+            li{
+                font-size: .91rem;
+                font-weight: 500;
+                padding: 4px;
+                i{
+                    margin-right: 4px;
+                }
+                a{
+                    color: #6f6f6f;
+                }
+            }
+        }
+    }
+    .footcover{
+        padding: 10px;
+        padding-top: 12px;
+        padding-bottom: 7px;
+        border-top: 1px solid #CCC;
+        display: inline-block;
+        width: 100%;
+        .save{
+            float: right;
+            padding: 5px;
+            
+            text-align: center;
+            background-color: rgba(204, 204, 204, 0.21);
+            border-radius: 50px;
+            width: 30px;
+            height: 30px;
+            margin-top: -26;
+            
+            i{
+                color: rgb(247, 63, 80);
+                font-size: .9rem;
+                margin-right: 0px;
+            }
+            .bi-heart{
+                color: #444;
+            }
+        }
+    }
+}
+
+.razorpay-payment-button{
+    background-color: $primary;
+    color: #FFF;
+    -webkit-appearance: list-button;
+    padding: 0px;
+}

@@ -1,0 +1,90 @@
+.bycard{
+    .usercover{
+        text-align: center;
+        padding-top: 50px;
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        img{
+            width: 120px;
+            border-radius: 50%;
+        }
+        h4{
+            font-size: 1.2rem;
+            margin-bottom: 0px;
+            margin-top: 17px;
+        }
+        p{
+            font-size: .95rem;
+            margin-bottom: 50px;
+        }
+    }
+}
+
+.list-group-item{
+    padding: 15px;
+    .badge{
+        border-radius: 3px;
+        color: #FFF;
+        padding: 7px 10px;
+        margin-top: 7px;
+    }
+    span{
+        float: right;
+    }
+}
+
+.timilist{
+   
+    li{
+        width: 100%;
+        padding: 12px;
+    }
+    span{
+        float: right;
+    }
+}
+.locationcover{
+    padding: 15px;
+    iframe{
+        width: 100%;
+    }
+    p{
+        padding-top: 8px;
+    }
+}
+
+.social-link{
+    li{
+        font-size: .9rem;
+        i{
+            margin-right: 3px;
+        }
+    }
+}
+
+
+.cateul{
+    padding-bottom: 10px;
+    li{
+        border-bottom: 0px;
+        padding:15px;
+        padding-bottom: 5px;
+        span{
+            float: left; 
+            svg{
+                margin-right: 5px;
+                fill: rgba(0, 0, 0, 0.5) !important;
+            }
+            img{
+                max-width: 30px !important;
+                margin-right: 10px;
+            }
+        }
+      
+    }
+}
+
+.form-cover{
+    padding: 15px;
+}

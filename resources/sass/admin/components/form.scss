@@ -1,0 +1,265 @@
+
+/* ===================================== Form Controls Style  ================================== */
+.body-content{
+    min-height: 500px;
+    padding: 30px 0px;
+}
+.form-body{
+  padding: 15px;
+}
+.panel-card{
+    background-color: #FFF;
+    @include shado-3();
+    .panel-header{
+      
+      padding: 12px;
+      border-bottom: 1px solid #CCC;
+    }
+    .panel-body{
+      padding: 20px;
+    }
+
+}
+.form-group{
+  margin-bottom: 20px;
+  label{
+   @media screen and (max-width: 767px) {
+      margin-bottom: 5px;
+   }
+    padding-top: 6px;
+    font-size: .9rem;
+  }
+  .form-indicat{
+      float: right;
+      padding-top: 6px;
+       @media screen and (max-width: 767px) {
+        float: none;
+       }
+  }
+  .form-control{
+    background-color: #f3f3f3ab;
+    border-radius: 0px;
+    font-weight: 500;
+    border: 1px solid #8e8b8bbf;
+    &:focus{
+      border:2px solid #007bff;
+      box-shadow: none;
+    }
+  }
+  .form-control-curve{
+    border-radius: 15px;
+  }
+  .pr-1{
+    padding-right: 5px;
+  }
+  .pl-1{
+    padding-left: 5px;
+  }
+}
+
+.empadd{
+  padding-top: 6px;
+  p{
+    font-weight: 400;
+    a{
+      color: $color-primary !important;
+      cursor: pointer;
+      font-size: .9rem;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.fcsd{
+  color: #0563c8;
+  font-size: 1.2rem;
+}
+.fcsdg{
+  color: #01c84d;
+  font-size: 1.2rem;
+}
+.sticky{
+  position: sticky;
+}
+.form-row {
+  margin-bottom: 20px;
+ 
+  .spn{
+    float: right;
+    padding-top: 5px;
+    font-weight: 600;
+  }
+  label{
+    padding-top: 3px;
+  }
+ .form-control{
+   background-color: rgba(204, 204, 204, 0.14);
+   font-size: .9rem !important;
+ }
+ .btn-xs{
+   font-size: 1rem;
+ }
+}
+
+
+.ajs-success{
+   color: #FFF !important;
+   background-color: rgba(9, 156, 43, 0.95) !important;
+   @include shado-1();
+}
+
+.ajs-warning{
+  background-color: #ffc107 !important;
+  @include shado-1();
+}
+
+.ajs-message{
+  @include shado-1();
+  background-color: #FFF;
+}
+
+.ajs-button{
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1;
+  color: #212529;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.175rem 0.75rem;
+  font-size: .9rem;
+  border-radius: 0.25rem;
+}
+
+.ajs-ok{
+  background-color: #dc3545;
+  color: #FFF;
+}
+
+.ajs-cancel{
+  background-color: rgba(207, 207, 207, 0.95);
+}
+
+
+/* ===================================== Validation CSS ================================== */
+
+.smart-valid{
+  color: #e2475c;
+  padding-top: 2px;
+}
+@media screen and (max-width: 720px) {
+	.smart-valid{
+    color: #e2475c;
+    padding-top: 3px;
+	}
+	.smart-valid::before{
+		   box-sizing: border-box;
+      display: none;
+	    left: 5px !important;
+	    background-color: #fd3550;
+	    content: "";
+	    position: absolute;
+	    z-index: 100;
+	    height: 15px;
+		  top: 12px !important;
+	    transform: rotate(135deg);
+	    width: 15px;
+	}
+}
+.smart-valid::before{
+	  box-sizing: border-box;
+    display: none;
+    left: -12px;
+    background-color: #fd3550;
+    content: "";
+    position: absolute;
+    z-index: 100;
+    height: 25px;
+	  top: 7px;
+    transform: rotate(135deg);
+    width: 25px;
+
+}
+.inerror{
+	border:2px solid  #fd3550;
+}
+.smart-val-left{
+	right: 100%;
+	left: unset;
+}
+
+.smart-val-left::before{
+	left: unset;
+	right: -12px;
+}
+
+#login-err{
+  color: #c82333;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+}
+
+.overflio{
+    font-weight: 400;
+    font-size: .8rem;
+    height: 22px;
+    overflow : hidden;
+   text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical; 
+}
+
+.form-control:focus{
+  box-shadow: none !important;
+  border: 2px solid #0a58ca;
+}
+
+.componentcont{
+  @include shado-1();
+  background-color: #FFF;
+  nav{
+    padding: 0px;
+  }
+}
+
+.savcomp{
+  float: right;
+  margin-top: -36px;
+  margin-right: 3px;
+}
+.cothb{
+  margin-bottom: 10px;
+  margin-top: 2px;
+}
+
+.sit-logo{
+    max-width: 400px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.fav-logo{
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+.pactattribut{
+  font-size: .9rem;
+  margin-bottom: 25px;
+  background-color: rgba(204, 204, 204, 0.22);
+  padding: 10px;
+}
+
+.nav-pills .nav-link.active{
+  color: #FFF !important;
+}

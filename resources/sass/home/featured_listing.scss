@@ -1,0 +1,95 @@
+.featured-listing{
+    background-color: #FFF;
+    @include big-padding();
+    
+}
+
+.featuredrow{
+    .featurdlist{
+        border: 1px solid rgba(204, 204, 204, 0.44);
+        margin-bottom: 30px;
+        .image-cover{
+            .cat-cover{
+                position: absolute;
+                background-color: rgba(0, 0, 0, 0.7) !important;
+                color: #FFF;
+                padding: 3px 8px;
+                margin-top: -30px;
+            }
+        }
+        .detail-cov{
+            padding: 15px;
+            h4{
+                font-size: 1.1rem;
+                margin-bottom: 3px;
+            }
+            ul{
+                margin-top: 10px;
+                display: inline-block;
+                width: 100%;
+                margin-bottom: -5px;
+                li{
+                    float: left;
+                    width: 50%;;
+                }
+            }
+        }
+        .foot-cover{
+            border-top: 1px solid rgba(204, 204, 204, 0.44);
+            padding: 10px;
+            padding-bottom: 5px;
+            display: inline-block;
+            width: 100%;
+            .rev{
+                i{
+                    color: #999;
+                    font-size: .9rem;
+                }
+                .act{
+                    color: #ffae00;
+                }
+            }
+            .save{
+                float: right;
+                padding: 5px;
+                text-align: center;
+                background-color: rgba(204, 204, 204, 0.21);
+                border-radius: 50px;
+                width: 30px;
+                height: 30px;
+                margin-top: 0px;
+                i{
+                    color: rgb(247, 63, 80);
+                    font-size: .9rem;
+                }
+                .bi-heart{
+                    color: #444;
+                }
+            }
+            .user{
+                img{
+                    max-width: 35px;
+                    border-radius: 50px;
+                    border: 1px solid rgba(204, 204, 204, 0.66);
+                }
+                span{
+                    font-size:1rem;
+                    font-weight: 500;
+                    color: rgba(68, 68, 68, 0.72);
+                }
+            }
+            .saveuser{
+                //margin-top: -32px;
+            }
+        }
+        .footuser{
+            padding-bottom: 10px;
+        }
+    }
+}
+
+.listgrid{
+    .featurdlist{
+        background-color: #FFF;
+    }
+}

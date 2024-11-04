@@ -1,0 +1,38 @@
+.new-listing{
+    padding: 0px 0;
+    padding-bottom: 130px;
+}
+.listing-col{
+    ul{
+        li{
+            cursor: pointer;
+            a{
+                color: #444;
+                font-weight: 500;
+                border-right: 1px solid #CCC !important;
+                padding-top: 15px !important;
+                padding-bottom: 15px !important;
+            } 
+            .disabled{
+                cursor: text;
+            }
+        }
+        
+    }
+}
+
+.actionreview{
+    float: right;
+    li{
+        float: right;
+        padding-left: 10px;
+        cursor: pointer;
+    }
+}
+
+.timeform{
+    input{
+        line-height: 1.1rem;
+        padding-top:9px;
+    }
+}

@@ -1,0 +1,209 @@
+/* ===================================== Information Widget - 2  ================================== */
+
+.info-widget-2{
+    margin-top: 20px;
+    .widget-2-cover{
+        
+        padding: 20px;
+        padding-left: 10px;
+        background-color: #FFF;
+        border-radius: 3px;
+        @include shado-5();
+        .widget-icon{
+            padding: 20px;
+
+             border-radius: 3px;
+             margin-top: -40px;
+             i{
+                 color: #FFFFFF;
+                 font-size: 34px;
+             }
+        }
+
+    }
+    .color-1{
+        .widget-icon{
+            background: linear-gradient(60deg,#26c6da,#00acc1);
+            box-shadow: 0 4px 20px 0 rgba(0,0,0,.14),0 7px 10px -5px rgba(0,188,212,.4);
+        }
+        h4{
+            color:#00acc1;
+        }
+    }
+    .color-1{
+        .widget-icon{
+            background: linear-gradient(60deg,#26c6da,#00acc1);
+            box-shadow: 0 4px 20px 0 rgba(0,0,0,.14),0 7px 10px -5px rgba(0,188,212,.4);
+        }
+        h4{
+            color:#00acc1;
+        }
+    }
+    .color-2{
+        .widget-icon{
+            background: linear-gradient(60deg,#ec407a,#d81b60);
+            box-shadow: 0 4px 20px 0 rgba(0,0,0,.14),0 7px 10px -5px rgba(233,30,99,.4);
+        }
+        h4{
+            color:#d81b60;
+        }
+    }
+    .color-3{
+        .widget-icon{
+            background: linear-gradient(60deg,#ffa726,#fb8c00);
+            box-shadow: 0 4px 20px 0 rgba(0,0,0,.14),0 7px 10px -5px rgba(255,152,0,.4);
+        }
+        h4{
+            color:#fb8c00;
+        }
+    }
+}
+
+/* ===================================== Chart Row Style  ================================== */
+
+.chart-row{
+    margin-top: 3px;
+    .chart-cover{
+        @include shado-5();
+        background-color: #FFF;
+        .card-header{
+            background-color: #FFF;
+        }
+        .card-action{
+            float: right;
+            .dropdown-toggle{
+                &::after{
+                    display: none;
+                }
+            }
+            .dropdown-menu{
+                @include card-1();
+            }
+        }
+    }
+}
+
+/* ===================================== Footer Style  ================================== */
+
+.footer-admin{
+    padding: 15px 0px;
+    border-top: 1px solid #DFDFDF;
+    background-color: #FFF;
+    position: absolute;
+    bottom: 0px;
+    width: 262px;
+    p{
+        text-align: center;
+        font-size: 0.75rem;
+        font-weight: 400;
+        a{
+            font-weight: 500;
+            color: $color-primary;
+        }
+    }
+   
+}
+
+/* ===================================== Page Title Style  ================================== */
+
+.page-title{
+    width: 100%;
+    margin-bottom: 30px;
+    h4{
+      width: 100%;
+      font-size: 1.3rem;
+    }
+    ul{
+      li{
+        float: left;
+        font-size: .9rem;
+        a{
+          color: #008cff !important;
+        }
+        i{
+            width: 70px;
+            font-size: 18px;
+            text-align: center;
+            font-size: 13px;
+            padding-top: 3px;
+            margin-left: 10px;
+            margin-right: 15px;
+        }
+        .bi-house-door-fill{
+            font-size: 12px;
+            padding-right: 3px;
+        }
+      }
+    }
+}
+
+.card{
+    background-color: #FFF;
+}
+
+.card-widget-aee{
+    .card-header{
+        background-color: #FFF;
+        h4{
+            margin-bottom: 0px;
+            font-size: 1.2rem;
+        }
+    }
+}
+
+.bullet.bullet-xs {
+    width: 8px;
+    height: 8px;
+    position: relative;
+    top: -1px;
+}
+
+.aempbtn{
+    margin-top: 9px;
+    float: right;
+}
+.custom-model{
+    border-radius: 0px;
+    .modal-header{
+        padding: 12px;
+        .modal-title{
+            font-size: 1rem;
+        }
+        
+    }
+    .modal-footer{
+         padding: 5px;
+    }
+}
+
+.table{
+    tr{
+        td{
+            vertical-align: middle;
+        }
+    }
+}
+.logo-panel{
+    img{
+        max-width: 300px;
+    }
+}
+
+.fav-panel{
+    img{
+        max-width: 100px;
+    }
+}
+
+.locationimage{
+    img{
+        max-width: 70px;
+        border-radius: 5px;
+    }
+}
+
+.caticon{
+    img{
+        max-width: 25px;
+    }
+}

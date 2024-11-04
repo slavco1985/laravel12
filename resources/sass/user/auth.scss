@@ -1,0 +1,131 @@
+.auth-container{
+    padding-top: 180px;
+    padding-bottom: 130px;
+    @media screen and (max-width:767.98px){
+        padding-top: 180px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .authcard{
+        background-color: #FFF;
+        padding: 50px;
+        border-radius: 7px;
+        @media screen and (max-width:767.98px){
+            padding: 40px 30px;
+        }
+    }
+    .titlecover{
+        text-align: center;
+        margin-bottom: 30px;
+        h2{
+            font-size: 1.6rem;
+            font-weight: 600;
+        }
+    }
+   
+}
+
+.authbg{
+    background-image: url('./../../storage/app/public/assets/images/loginbg.jpg');
+    background-position:bottom;
+    background-size: cover;
+}
+
+
+.form-row{
+    margin-bottom: 25px;
+    text-align: left;
+    label{
+        padding-top: 7px;
+        font-weight: 500;
+        text-align: left;
+        @media screen and (max-width:767.98px){
+            margin-bottom: 8px;
+        }
+    }
+    .spcol{
+        float: right;
+        padding-top: 7px;
+        font-weight: 600;
+        @media screen and (max-width:767.98px){
+            float: none;
+        }
+    }
+}
+.fpswd{
+    a{
+        float: right;
+        text-align: right;
+        padding-top: 8px;
+        &:hover{
+            text-decoration: underline;
+            color: $color-primary;
+        }
+    }
+}
+
+
+.form-row{
+   
+    .form-control{
+        margin-bottom: 0px;
+    }
+}
+
+.form-container{
+    padding: 25px;
+    padding-bottom: 0px;
+}
+
+
+
+
+.pricecard{
+	margin-bottom: 30px;
+	box-shadow: 0 2px 4px -1px #0003,0 4px 5px 0 #00000024,0 1px 10px 0 #0000001f;
+	.card-header{
+		padding: 10px;
+		padding-top: 15px;
+		h6{
+			font-size: 1.5rem;
+			margin-bottom: 5px;
+		}
+		p{
+			font-size: .9rem;
+		}
+		h4{
+			margin-top: 10px;
+		}
+	}
+	.card-body{
+		ul{
+			li{
+				width: 100%;
+				text-align: left;
+				font-size: 1rem;
+                font-weight: 400;
+				padding: 10px;
+				span{
+					float: right;
+				}
+			}
+		}
+	}
+	.card-footer{
+		padding-top: 0.7rem;
+		ul{
+			li{
+				float: right;
+				padding-left:25px;
+				cursor: pointer;
+				color: #6a6a6a;
+				a{
+					color: #6a6a6a;
+				}
+				i{
+					font-size: .85rem;
+				}
+			}
+		}
+	}
+}

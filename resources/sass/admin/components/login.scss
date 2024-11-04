@@ -1,0 +1,103 @@
+/* ===================================== Login Style CSS ================================== */
+.oter-header{
+    @include shado-3();
+    padding: 4px;
+    position: absolute;
+    width: 100%;
+    background-color: #FFF;
+}
+.login-cover{
+   
+	.login-box{
+		padding: 30px;
+		background-color: #FFF;
+		box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+		border-radius: 5px;
+		border-top: 4px solid $primary;
+		max-width: 450px;
+		margin: auto;
+		.logo-cover{
+			strong{
+                font-size: 1.4rem;
+			    width: 100%;
+			    text-align: center;
+			    font-weight: 600;
+				margin-bottom: 15px;
+			}
+			p{
+				margin-top: 7px;
+			
+			}
+			img{
+				width: 100px;
+			}
+			
+		}
+	}
+	float: none;
+    margin: auto;
+   
+	form{
+		padding: 20px;
+		width: 100%;
+		.obju{
+			display: inline-block;
+			font-weight: 400;
+		}
+		.form-group{
+			width: 100%;
+			margin-bottom: 22px;
+			input{
+				border-radius: 2px;
+			}
+			i{
+				position: absolute;
+				right: 14px;
+				top: 12px;
+			}
+
+		}
+		.align-right{
+			text-align: right;
+			float: right;
+			a{
+				&:hover{
+					color: #0056b3;
+					text-decoration: underline;
+				}
+			}
+			
+		}
+		.align-left{
+			float: left;
+		}
+		.btn-round{
+			border-radius: 15px;
+			width: 100%;
+			@include card-1();
+		}
+	}
+	.reset-tit{
+		text-align: center;
+		strong{
+			text-transform: uppercase;
+		}
+		
+
+	}
+}
+
+.login-logo{
+	img{
+		max-width: 230px;
+	}
+}
+
+.sucess-card{
+	text-align: center;
+	padding: 40px;
+	i{
+		font-size: 52px;
+		margin-bottom: 20px;
+	}
+}

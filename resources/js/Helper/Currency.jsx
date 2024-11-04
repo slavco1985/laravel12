@@ -1,0 +1,122 @@
+import React, {  useEffect, useState } from 'react';
+
+const Currency = ({name, value, onHandleChange}) =>{
+    return (
+        <select name={name} value={value} onChange={onHandleChange} className='form-control'>
+           
+            <option value="ALL/Lek">Albania(Lek) - ALL/Lek</option>
+            <option value="AFN/؋">Afghanistan(Afghani) - AFN/؋</option>
+            <option value="AUD/$">Australia(Dollar) - AUD/$</option>
+            <option value="AZN/₼">Azerbaijan(Manat) - AZN/₼</option>
+            <option value="BSD/$">Bahamas(Dollar) - BSD/$</option>
+            <option value="BBD/$">Barbados(Dollar) - BBD/$</option>
+            <option value="BYR/p.">Belarus(Ruble) - BYR/p.</option>
+            <option value="BZD/BZ$">Belize(Dollar) - BZD/BZ$</option>
+            <option value="BMD/$">Bermuda(Dollar) - BMD/$</option>
+            <option value="BOB/$b">Bolivia(Boliviano) - BOB/$b</option>
+            <option value="BAM/KM">Bosnia and Herzegovina(Convertible Marka) - BAM/KM</option>
+            <option value="BWP/P">Botswana(Pula) - BWP/P</option>
+            <option value="BGN/лв">Bulgaria(Lev) - BGN/лв</option>
+            <option value="BRL/R$">Brazil(Real) - BRL/R$</option>
+            <option value="BND/$">Brunei(Darussalam Dollar) - BND/$</option>
+            <option value="KHR/៛">Cambodia(Riel) - KHR/៛</option>
+            <option value="CAD/$">Canada(Dollar) - CAD/$</option>
+            <option value="KYD/$">Cayman(Dollar) - KYD/$</option>
+            <option value="CLP/$">Chile(Peso) - CLP/$</option>
+            <option value="CNY/¥">China(Yuan Renminbi) - CNY/¥</option>
+            <option value="COP/$">Colombia(Peso) - COP/$</option>
+            <option value="CRC/₡">Costa Rica(Colon) - CRC/₡</option>
+            <option value="HRK/kn">Croatia(Kuna) - HRK/kn</option>
+            <option value="CUP/₱">Cuba(Peso) - CUP/₱</option>
+            <option value="CZK/Kč">Czech Republic(Koruna) - CZK/Kč</option>
+            <option value="DKK/kr">Denmark(Krone) - DKK/kr</option>
+            <option value="DOP/RD$">Dominican Republic(Peso) - DOP/RD$</option>
+            <option value="EGP/£">Egypt(Pound) - EGP/£</option>
+            <option value="SVC/$">El Salvador(Colon) - SVC/$</option>
+            <option value="EEK/kr">Estonia(Kroon) - EEK/kr</option>
+            <option value="EUR/€">Euro Member(Euro) - EUR/€</option>
+            <option value="FKP/£">Falkland Islands(Pound) - FKP/£</option>
+            <option value="FJD/$">Fiji(Dollar) - FJD/$</option>
+            
+            <option value="GEL/₾">Georgia(Lari) - GEL/₾</option>
+            <option value="GHC/¢">Ghana(Cedis) - GHC/¢</option>
+            <option value="GIP/£">Gibraltar(Pound) - GIP/£</option>
+            <option value="GTQ/Q">Guatemala(Quetzal) - GTQ/Q</option>
+            <option value="GGP/£">Guernsey(Pound) - GGP/£</option>
+            <option value="GYD/$">Guyana(Dollar) - GYD/$</option>
+            <option value="HNL/L">Honduras(Lempira) - HNL/L</option>
+            <option value="HKD/$">Hong Kong(Dollar) - HKD/$</option>
+            <option value="HUF/Ft">Hungary(Forint) - HUF/Ft</option>
+            <option value="ISK/kr">Iceland(Krona) - ISK/kr</option>
+            <option value="INR/₹">India(Rupee) - INR/₹</option>
+            <option value="IDR/Rp">Indonesia(Rupiah) - IDR/Rp</option>
+            <option value="IRR/﷼">Iran(Rial) - IRR/﷼</option>
+            <option value="IMP/£">Isle of Man(Pound) - IMP/£</option>
+            <option value="ILS/₪">Israel(Shekel) - ILS/₪</option>
+            <option value="JMD/J$">Jamaica(Dollar) - JMD/J$</option>
+            <option value="JPY/¥">Japan(Yen) - JPY/¥</option>
+            <option value="JEP/£">Jersey(Pound) - JEP/£</option>
+            <option value="KZT/лв">Kazakhstan(Tenge) - KZT/лв</option>
+            <option value="KPW/₩">Korea (North)(Won) - KPW/₩</option>
+            <option value="KRW/₩">Korea (South)(Won) - KRW/₩</option>
+            <option value="KGS/лв">Kyrgyzstan(Som) - KGS/лв</option>
+            <option value="LAK/₭">Laos(Kip) - LAK/₭</option>
+            <option value="LVL/Ls">Latvia(Lat) - LVL/Ls</option>
+            <option value="LBP/£">Lebanon(Pound) - LBP/£</option>
+            <option value="LRD/$">Liberia(Dollar) - LRD/$</option>
+            <option value="LTL/Lt">Lithuania(Litas) - LTL/Lt</option>
+            <option value="MKD/ден">Macedonia(Denar) - MKD/ден</option>
+            <option value="MYR/RM">Malaysia(Ringgit) - MYR/RM</option>
+            <option value="MUR/₨">Mauritius(Rupee) - MUR/₨</option>
+            <option value="MXN/$">Mexico(Peso) - MXN/$</option>
+            <option value="MNT/₮">Mongolia(Tughrik) - MNT/₮</option>
+            <option value="MZN/MT">Mozambique(Metical) - MZN/MT</option>
+            <option value="NAD/$">Namibia(Dollar) - NAD/$</option>
+            <option value="NPR/₨">Nepal(Rupee) - NPR/₨</option>
+            <option value="ANG/ƒ">Netherlands(Antilles Guilder) - ANG/ƒ</option>
+            <option value="NZD/$">New Zealand(Dollar) - NZD/$</option>
+            <option value="NIO/C$">Nicaragua(Cordoba) - NIO/C$</option>
+            <option value="NGN/₦">Nigeria(Naira) - NGN/₦</option>
+            <option value="NOK/kr">Norway(Krone) - NOK/kr</option>
+            <option value="OMR/﷼">Oman(Rial) - OMR/﷼</option>
+            <option value="PKR/₨">Pakistan(Rupee) - PKR/₨</option>
+            <option value="PAB/B/.">Panama(Balboa) - PAB/B/.</option>
+            <option value="PYG/Gs">Paraguay(Guarani) - PYG/Gs</option>
+            <option value="PEN/S/.">Peru(Nuevo Sol) - PEN/S/.</option>
+            <option value="PHP/₱">Philippines(Peso) - PHP/₱</option>
+            <option value="PLN/zł">Poland(Zloty) - PLN/zł</option>
+            <option value="QAR/﷼">Qatar(Riyal) - QAR/﷼</option>
+            <option value="RON/lei">Romania(New Leu) - RON/lei</option>
+            <option value="RUB/₽">Russia(Ruble) - RUB/₽</option>
+            <option value="RWF/RF">Rwanda Franc - RWF/RF</option>
+            <option value="SHP/£">Saint Helena(Pound) - SHP/£</option>
+            <option value="SAR/﷼">Saudi Arabia(Riyal) - SAR/﷼</option>
+            <option value="RSD/Дин.">Serbia(Dinar) - RSD/Дин.</option>
+            <option value="SCR/₨">Seychelles(Rupee) - SCR/₨</option>
+            <option value="SGD/$">Singapore(Dollar) - SGD/$</option>
+            <option value="SBD/$">Solomon Islands(Dollar) - SBD/$</option>
+            <option value="SOS/S">Somalia(Shilling) - SOS/S</option>
+            <option value="ZAR/R">South Africa(Rand) - ZAR/R</option>
+            <option value="LKR/₨">Sri Lanka(Rupee) - LKR/₨</option>
+            <option value="SEK/kr">Sweden(Krona) - SEK/kr</option>
+            <option value="CHF/CHF">Switzerland(Franc) - CHF/CHF</option>
+            <option value="SRD/$">Suriname(Dollar) - SRD/$</option>
+            <option value="SYP/£">Syria(Pound) - SYP/£</option>
+            <option value="TWD/NT$">Taiwan(New Dollar) - TWD/NT$</option>
+            <option value="THB/฿">Thailand(Baht) - THB/฿</option>
+            <option value="TTD/TT$">Trinidad and Tobago(Dollar) - TTD/TT$</option>
+            <option value="TRL/₺">Turkey(Lira) - TRL/₺</option>
+            <option value="TVD/$">Tuvalu(Dollar) - TVD/$</option>
+            <option value="UAH/₴">Ukraine(Hryvna) - UAH/₴</option>
+            <option value="GBP/£">United Kingdom(Pound) - GBP/£</option>
+            <option value="USD/$">United States(Dollar) - USD/$</option>
+            <option value="UYU/$U">Uruguay(Peso) - UYU/$U</option>
+            <option value="UZS/лв">Uzbekistan(Som) - UZS/лв</option>
+            <option value="VEF/Bs">Venezuela(Bolivar Fuerte) - VEF/Bs</option>
+            <option value="VND/₫">Viet Nam(Dong) - VND/₫</option>
+            <option value="YER/﷼">Yemen(Rial) - YER/﷼</option>
+            <option value="ZWD/Z$">Zimbabwe(Dollar) - ZWD/Z$</option>
+         </select>
+    )
+}
+export default Currency;

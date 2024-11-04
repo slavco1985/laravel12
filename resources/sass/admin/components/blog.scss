@@ -1,0 +1,32 @@
+.blog-content{
+    background-color: #fff;
+    @include card-1();
+    padding: 0px;
+    .form-content{
+        padding: 30px;
+        padding-top: 15px;
+    }
+    .image-content{
+        padding: 30px;
+        
+    }
+    .detail-content{
+        padding: 10px;
+    }
+}
+
+.nav-contents{
+
+    ul{
+        li{
+  
+        }
+        .ritcont{
+            float: right;
+            position: absolute;
+            right: 23px;
+            margin-top: 3px;
+            z-index: 999;
+        }
+    }
+  }

@@ -1,0 +1,159 @@
+/* ===================================== Information Widget Card  ================================== */
+.info-card{
+        background-color: #FFf;
+        @include shado-5();
+        padding: 15px;
+        border-radius: .25rem;
+       
+        font-size: .9rem;
+        span{
+            display: none;
+        }
+        .row{
+            margin-top: 15px;
+           h2{
+               margin-bottom: 0px;
+               margin-top: 8px;
+              font-size: 1.7rem;
+           }
+            svg{
+                margin-top: 10px;
+            }
+            .donut-spn{
+                svg{
+                    margin-top: -0px;
+                }
+            }
+    }
+}
+
+/* ===================================== World Map Style  ================================== */
+
+.world-map-row{
+	margin: 0px;
+    margin-top: 30px;
+    background-color: #FFF;
+    @include shado-5();
+	.world-map{
+		padding: 30px;
+		padding-bottom: 0px;
+
+		svg{
+			margin-top: -30px;
+		}
+		.jqvmap-zoomin{
+			padding: 11px 6px;
+			padding-right: 6px;
+			line-height: 0px;
+			text-align: center;
+			margin-left: 2px;
+			padding-right: 15px;
+			margin-top: -10px;
+			@include card-1();
+		}
+		.jqvmap-zoomout{
+			padding: 11px 6px;
+			padding-right: 6px;
+			line-height: 0px;
+			text-align: center;
+			margin-left: 2px;
+			padding-right: 15px;
+			@include card-1();
+		}
+    }
+    .table-col{
+        padding: 30px;
+        padding-left: 20px;
+        margin-top: 17px;
+        tr{
+            border-bottom: 1px solid #EFEFEF;
+            td{
+                border-top: 0px !important;
+                font-size: .9rem;
+            }
+
+        }
+    }
+}
+
+.componentplugin{
+    h2{
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+    }
+    padding-top: 15px;
+    ul{
+        min-height: 400px;
+        li{
+            padding: 13px;
+            background-color: #FFF;
+            margin-bottom: 12px;
+            @include shado-3();
+        }
+    }
+}
+
+.page-containerlay{
+    padding-top: 15px;
+
+    h2{
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+    }
+    ul{
+        background-color: rgba(179, 179, 179, 0.61);
+        min-height: 250px;
+        padding: 15px;
+        padding-bottom: 5px;
+        li{
+            padding: 13px;
+            background-color: #FFF;
+            margin-bottom: 12px;
+            @include shado-4();
+            span{
+                float: right;
+                font-weight: 600;
+                color: #008cff;
+                cursor: pointer;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    p{
+        background-color: rgba(179, 179, 179, 0.61);
+        padding: 20px;
+        text-align: center;
+        padding-top: 5px;
+    }
+}
+
+.slider-table{
+    img{
+        max-width: 150px;
+    }
+    .actiontd{
+        width: 100px;
+    }
+    tr {
+        td{
+            vertical-align: middle !important;
+        }
+    }
+}
+
+.team-table{
+    img{
+        max-width: 100px;
+    }
+    .actiontd{
+        width: 100px;
+    }
+    tr {
+        td{
+            vertical-align: middle !important;
+        }
+    }
+}
+

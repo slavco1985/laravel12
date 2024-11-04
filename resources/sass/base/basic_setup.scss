@@ -1,0 +1,281 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: #444;
+}
+
+a:hover {
+    color: #444;
+}
+
+ul,ol {
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+a:hover,
+a:focus,
+input,
+textarea {
+    text-decoration: none;
+    outline: none;
+}
+.center{
+    text-align: center;
+}
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+.cp {
+    cursor: pointer
+}
+html,body{
+    font-family: 'Jost', sans-serif;
+    color: #444;
+    background: #f9f9f9;
+}
+p {
+    margin-bottom: 0px;
+    width: 100%;
+}
+.no-padding {
+    padding: 0px;
+}
+
+.no-margin {
+    margin: 0px;
+
+}
+.hid{
+    display: none;
+}
+
+.top-mar{
+    margin-top: 15px;
+}
+.h-100{
+    height: 100%;;
+}
+::placeholder {
+    color: #747f8a !important;
+    font-size: 13px;
+    opacity: .5 !important;
+}
+.container-fluid{
+    padding: 0px;
+}
+h1,h2,h3,h4,h5,h6{
+   // font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Jost', sans-serif;
+}
+strong{
+    //font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Jost', sans-serif;
+}
+body{
+    background-color:#f1f1f145 !important;
+    //font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Jost', sans-serif;
+    color: #6A6A6A;
+    overflow-x: hidden;
+
+}
+img{
+    max-width: 100%;
+    
+}
+.section-title{
+	padding: 30px;
+	margin: 0px;
+    @media screen and (max-width: 576px){
+        padding: 0px;
+        padding-bottom: 20px;
+    }
+	h2{
+		width: 100%;
+		text-align: center;
+        font-size: 1.8rem;
+        font-weight: 500;
+
+	}
+	p{
+		max-width: 850px;
+		text-align: center;
+		float: none;
+		margin: auto;
+	}
+	span{
+		float: right;
+		font-style: italic;
+	}
+}
+.breadcrumb{
+    background-color: rgba(204, 204, 204, 0.33);
+    padding: 50px;
+    text-align: center;
+    padding-top: 125px;
+    ul{float: none;margin: auto;}
+
+     @media screen and (max-width: 576px){
+         padding-top: 125px;
+         padding-left: 20px;
+         padding-right: 20px;
+    }
+    @media screen and (max-width: 356px){
+         padding-top: 125px;
+         padding-left: 20px;
+         padding-right: 20px;
+    }
+    h2{
+        font-size: 1.5rem;
+        font-weight: 600;
+        width: 100%;
+        color: rgba(68, 68, 68, 0.85);
+        margin-bottom: 0px;
+        @media screen and (max-width: 600px){
+            font-size: 26px;
+        }
+    }
+    ul{
+        float: none;
+        margin: auto;
+        width: auto;
+        li{
+            float: left;
+            font-weight: 500;
+            margin-top: 10px;
+            font-size: 1rem;
+            svg{
+                width: 50px;
+                text-align: center;
+                color: #444;
+                font-weight: 600;
+                font-size: .9rem;
+               fill: rgba(0, 0, 0, 0.5) !important;
+            }
+            a{
+                color: #444;
+                &:hover{
+                    color: $color-primary;
+                    text-decoration: underline;
+                }
+            }
+        }
+    } 
+}
+
+.form-control{
+	&:focus{
+		box-shadow: none !important;
+		border:2px solid  $color-primary;
+	}
+
+}
+.btn-light{
+	background-color: #FFF;
+	color: #3F3F3F;
+}
+
+.collapse.show {
+
+    display: block !important;
+
+}
+
+.form-control:focus{
+	box-shadow: none;
+	border: 2px solid $color-primary !important;
+}
+.form-control{
+	background-color: #F8F8F8;
+	margin-bottom: 20px;
+    border-radius: 0px;
+	&:focus{
+		background-color: #FFF;
+		border-color: #CCC;
+	}
+}
+.container{
+    max-width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    @media screen and (max-width: 575px){
+        padding: 10px 15px;
+    }
+}
+
+
+/* ===================================== Validation CSS ================================== */
+
+
+/* ===================================== Validation CSS ================================== */
+
+.smart-valid{
+    color: #e2475c;
+    padding-top: 2px;
+    font-size: .9rem;
+  }
+  
+  .inerror{
+      border:2px solid  #fd3550;
+  }
+ 
+  
+  #login-err{
+    color: #c82333;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+  }
+
+
+.note-icon-caret:before{
+    display: none;
+}
+.req{
+    color: #c82333;
+}
+.body-content{
+    padding-top: 30px;
+}
+
+
+.number{
+	font-family:'Font Awesome 5 Pro';
+    font-weight:500;
+    font-size: .9rem;
+}
+
+.swal2-confirm{
+    background-color: $color-primary !important;
+}
+
+.swal2-styled{
+    padding: 7px 14px !important;
+}
+.swal2-title{
+    font-size: 1.3rem !important;
+    margin-bottom:5px !important;
+}
+.swal2-actions{
+    margin-bottom: 10px !important;
+}
+.swal2-popup{
+    width: 28em !important;
+}

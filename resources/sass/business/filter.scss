@@ -1,0 +1,42 @@
+
+
+.filter-col{
+    background-color: #FFF;
+    .category-filterr{
+        .filter-head{
+            padding: 13px;
+            border-bottom: 1px solid #ccc;
+            h2{
+                font-size: 1rem;
+                margin-bottom: 0px;
+            }
+        }
+        .filter-body{
+            padding: 15px;
+            display: inline-block;
+            @media screen and (max-width: 767px){
+                display: none;
+            }
+            ul{
+                li{
+                    margin-bottom: 7px;
+                    input{
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.rev{
+    float: left;
+    padding-top: 3px;
+    i{
+        color: #999;
+        font-size: .95rem;
+    }
+    .act{
+        color: #ffae00;
+    }
+}

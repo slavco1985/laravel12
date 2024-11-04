@@ -1,0 +1,17 @@
+.featured-city{
+    @include big-padding();
+    .cityrow{
+        .citycol{
+            margin-bottom: 30px;
+            .citycover{
+                h5{
+                    margin-bottom: 0px;
+                    font-size: 1.1rem;
+                }
+                p{
+                    font-size: .9rem;
+                }
+            }
+        }
+    }
+}

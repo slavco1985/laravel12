@@ -1,0 +1,195 @@
+
+.search-bar-box {
+	width: 45%
+}
+
+.search-control {
+	background-color: #f7f7ff;
+    border: 1px solid #e9e9f6;
+	padding-left: 2.5rem
+}
+
+.search-control-2 {
+	color: #fff;
+	background-color: #212529;
+	border: 1px solid rgba(255, 255, 255, 12%)!important;
+	padding-right: 2.5rem
+}
+
+.search-control-2:focus {
+	color: #fff;
+	padding-right: 2.5rem;
+	background-color: #212529;
+	box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25)
+}
+
+input.search-control-2::placeholder {
+	color: #fff!important;
+	opacity: .5!important
+}
+
+.search-show {
+	font-size: 18px;
+	left: 15px
+}
+
+.search-close {
+	font-size: 24px;
+    right: 10px;
+	cursor: pointer;
+	display: none
+}
+.widecol1{
+	p{
+		font-size: 1rem;
+
+	}
+}
+.radius-30 {
+	border-radius: 30px
+}
+
+.radius-10 {
+	border-radius: 10px
+}
+
+.radius-15 {
+	border-radius: 15px
+}
+
+.max-550{
+	max-width: 550px;
+}
+.max-1150{
+	max-width: 1150px;
+}
+.table{
+	tr{
+		border-bottom: 1px solid #CCC;
+		th{
+			color: #444;
+			font-size: .9rem;
+			background-color: #f7f7f7;
+			
+		}
+	}
+}
+.bt-1{
+	border-top: 1px solid #ccccccb5;
+}
+.datepicker td, .datepicker th{
+	font-size: .9rem;
+    padding: 5px;
+}
+.note-toolbar{
+	.dropdown-toggle::after{
+		display: none;
+	}
+}
+.alink{
+	&:hover{
+		color: $color-primary;
+		text-decoration: underline;
+		cursor: pointer;
+	}
+}
+.filter-panel{
+	float: right;
+	margin-top: -4px;
+	margin-right: -4px;
+	li{
+		float: left;
+		select{
+			width: 200px;
+			background-color: #f3f3f359;
+    		border-radius: 2px;
+    		font-weight: 500;
+		    font-size: .8rem;
+		    color: #737373;
+		}
+	}
+}
+.table-foot{
+	display: inline-block;
+	width: 100%;
+	padding: 5px 10px;
+	p{
+		padding-top: 7px;
+	}
+	.btns{
+		float: right;
+		margin-top: -25px;
+		.btn{
+			margin-left: 10px;
+			width: 90px;
+		}
+	}
+}
+.cbs{
+	font-size: .7rem;
+	width: 120px;
+}
+.currency{
+	font-size: .8rem;
+}
+.dcrdtitle{
+	h6{
+		font-size: .95rem;
+	}
+}
+
+.empifo{
+	h4{
+		font-size: 1.2rem;
+    	margin-bottom: 5px;
+	}
+	.postinfos{
+		
+		font-size: .8rem;
+		color: #555;
+	}
+	label{
+		font-size: .8rem !important;
+	}
+	p{
+		    font-size: 0.8rem;
+    		padding-top: 5px;
+	}
+	.bgd{
+		padding-left: 0px;
+	}
+}
+#app{
+	height: 100%;
+}
+
+.nav-div{
+	height: calc(100% - 60px) !important;
+}
+.simplebar-content-wrapper{
+	//height: calc(100% - 60px) !important;
+	height: 100% !important;
+	overflow: auto;
+}
+.simplebar-track.simplebar-vertical{
+	width: 10px !important;
+	margin-right: -1px;
+}
+.simplebar-content{
+	//height: calc(100% - 60px) !important;
+}
+
+.simplebar-scrollbar:before{
+	background: rgb(82, 81, 81) !important;
+}
+
+.modal-header{
+	h5{
+		font-size: 1rem;
+	}
+	padding: .8rem 1rem;
+}
+
+.border-bottom{
+	border-bottom: 1px solid #CCC !important;
+}

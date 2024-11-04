@@ -1,0 +1,67 @@
+.slider-contaienr{
+    background-image: url('./../../storage/app/public/assets/images/bg.jpg');
+    background-repeat: no-repeat;
+    padding: 90px;
+    padding-top: 150px;
+    @media screen and (max-width:1240.98px){
+        padding: 30px;
+        padding-top: 140px;
+    }
+    @media screen and (max-width:999.98px){
+        padding: 20px;
+        padding-top: 90px;
+        padding-bottom: 80px;
+    }
+    @media screen and (max-width:767.98px){
+        padding: 20px;
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+    .searchcol{
+        padding-top: 60px;
+        h1{
+            font-size: 2.5rem;
+            @media screen and (max-width:991.98px){
+                text-align: center;
+                font-size: 2rem;
+            }
+            @media screen and (max-width:491.98px){
+                font-size: 1.5rem;
+            }
+        }
+        p{
+            margin-bottom: 30px;
+            font-size: 1.1rem;
+            @media screen and (max-width:991.98px){
+                text-align: center;
+            }
+        }
+        ul{
+            li{
+                float: left;
+                padding: 10px;
+                a{
+                    font-weight: 500;
+                    text-decoration: underline;
+                }
+            }
+        }
+        .search-box-card{
+            background-color: #FFF;
+            padding: 15px;
+            margin-bottom: 10px;
+            box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.14);
+            .form-control{
+                margin-bottom: 0px;
+            }
+        }
+    }
+    .img-col{
+        text-align: right;
+        img{
+            max-width: 95%;
+        }
+        
+    }
+   
+}

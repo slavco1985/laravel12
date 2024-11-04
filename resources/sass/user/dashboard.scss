@@ -1,0 +1,170 @@
+
+.user-container{
+   
+}
+
+.user-page-nav{
+    padding-top: 109px;
+    padding-bottom: 32px;
+	.row{
+
+        @media screen and (max-width: 767px){
+            margin-left: 0px;
+        }
+        ul{
+            li{
+                float: left;
+                color: #7a7a7a;
+                i{
+                    padding-right: 10px;
+                    padding-left: 10px;
+                    font-size: .9rem;
+                }
+                a{
+                    color: #7a7a7a;
+                }
+            }
+        }
+	}
+}
+
+.side-card{
+    background-color: #fff;
+    box-shadow: 0 4px 20px 1px rgba(0, 0, 0, 0.03), 0 1px 4px rgba(0, 0, 0, 0.04);
+    .user-prof{
+        padding: 10px;
+        margin: 0px;
+        background-color: #fcfcfc;
+        .image{
+            padding: 5px;
+            img{
+                 border-radius: 50px;
+                 background-color: #FFF;
+                 padding: 3px;  
+                box-shadow: 0 2px 6px 0 rgba(218, 218, 253, 0.65), 0 2px 6px 0 rgba(206, 206, 238, 0.54);
+            }  
+             
+        }
+        .detail{
+            padding-left: 8px;
+            margin: auto;
+            h6{
+                margin-bottom: 0px;
+                font-weight: 700;
+                padding-top: 13px;
+            }
+            p{
+                font-size: .85rem;
+            }
+
+        }
+    }
+    .user-menu{
+       border-top: 1px #cccccc6b;
+       margin: 0px;
+        ul{
+            width: 100%;
+            a{
+                color: rgba(68, 68, 68, 0.86);
+            }
+            li{
+                padding: 9px 15px;
+                border-bottom: 1px solid #cccccc6b;
+                font-weight:600;
+                font-size: .88rem;
+                
+                i{
+                    margin-right: 8px;
+                    font-weight: 600;
+                    font-size: 1rem;
+                }
+                &:hover{
+                    background-color:#263da6;
+                    color: #FFF;
+                    a{
+                        color: #FFF;
+                    }
+                    button{
+                        background-color:#263da6 !important;
+                        color: #FFF;
+                    }
+                }
+                a{
+                    color: #444444d1;
+                    width: 100%;
+                }
+                button{
+                    box-shadow: none;
+                    background-color: #fcfcfc;
+                    color: #7a7a7a;
+                    font-weight:600;
+                    font-size: .88rem;
+                    border: 0px;
+                }
+            }
+            .act{
+                 background-color:#263da6;
+                 color: #FFF;
+                 a{
+                     color: #FFF;
+                 }
+                 button{
+                    background-color:#263da6!important;
+                    color: #FFF;
+                }
+            }
+        }
+    }
+}
+
+
+
+.user-info{
+    margin-bottom: 5px;
+    .user-widg{
+        background-color: #FFF;
+        border-radius: 5px;
+        display: flex;
+        padding: 2px;
+        box-shadow: 0 4px 20px 1px rgba(0, 0, 0, 0.03), 0 1px 4px rgba(0, 0, 0, 0.04);
+        .icon{
+            padding: 10px 12px;
+            padding-left: 20px;
+            padding-right: 15px;
+            i{
+                font-size: 2.5rem;
+            }
+        }
+        .detail{
+            padding-top: 12px;
+            padding-left: 2px;
+            h6{
+               margin-bottom: 0px;
+               font-weight: 700;
+               margin-bottom: 5px;
+               font-size: 1.4rem;
+            } 
+            p{
+                font-size: .85rem;
+            }
+        }
+        @media screen and (max-width: 767px){
+            margin-bottom: 15px;
+        }
+    }
+}	
+
+.actionlist{
+    text-align: right;
+    button{
+        float: right;
+        margin-left: 10px;
+        margin-top: -2px;
+    }
+}
+
+.alert-user{
+    i{
+        font-size: 4rem;
+    }
+}

@@ -1,0 +1,156 @@
+header{
+	box-shadow:0 5px 5px rgba(0, 22, 84, 0.1);
+	background-color: #FFF;
+	padding: 14px;
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+	.head-container{
+		@media screen and (max-width:767.98px){
+			padding: 0px !important;
+		}
+	}
+	.logo{
+		
+		img{
+			max-width: 180px;
+			padding-top: 4px;
+			@media screen and (max-width:767.98px){
+				padding-top: 8px;
+			}
+		}
+	}
+	.search{
+		padding-top: 2px;
+		@media screen and (max-width:767.98px){
+			padding-bottom: 10px;
+		}
+		.search-row{
+			
+			.form-control{
+				margin-bottom: 0px;
+			}
+			.btn{
+				border-radius: 0px;
+				box-shadow: none;
+				width: 100%;
+			}
+		}
+	}
+	.slink{
+		ul{
+           
+			li{
+				padding-top: 2px;
+				a{
+					font-weight: 600;
+					color: $color-primary;
+					text-decoration: underline;
+				}
+				float: left;
+				
+				i{
+					font-size: 1.8rem;
+					padding: 8px;
+				}
+
+			}
+		}
+	}
+	.small-menu{
+		float: right;
+	    font-size: 2rem;
+	    padding-right: 6px;
+		font-weight: 600;
+	    color: #848282;
+	}
+	
+}
+
+
+.display-contents{
+	display: contents;
+}
+
+
+.home-mobile-menu{
+	.offcanvas-header{
+		border-bottom: 1px solid #CCC;
+		h4{
+			margin-bottom: 0px;
+			font-size: 1.1rem;
+		}
+	}
+	.offcanvas-body{
+		padding: 0px;
+		ul{
+			li{
+				padding: 6px;
+				border-bottom: 1px solid #CCCCCC85;
+				font-weight: 500;
+				padding-left: 15px;
+				i{
+					font-weight: 600;
+					margin-right: 9px;
+					font-size: 1rem;
+				}
+				a{
+					color: #686666;
+				}
+			}
+			margin-bottom: -30px;
+		}
+	}
+	.search-cover{
+		
+		p{
+			margin-bottom: 10px;
+		}
+		.input-group-text{
+			height: 38px;
+		}
+	}
+}
+
+
+.login-options{
+	img{
+		width: 40px;
+		margin-right: 3px;
+		 box-shadow: 0 2px 6px 0 rgba(218, 218, 253, 0.65), 0 2px 6px 0 rgba(206, 206, 238, 0.54);
+		 border-radius: 50px;
+		 background-color: #FFF;
+		 padding: 2px;
+	  }
+	
+	  .dropdown-menu{
+		width: 200px;
+		border-radius: 0px;
+		@include shado-1();
+		border: 0px;
+		margin-top:15px;
+		.dropdown-item{
+		  padding-left: 13px;
+		  i{
+			width: 20px;
+			text-align: left;
+			margin-right: 3px;
+		  }
+		}
+	  }
+	   .dropdown-toggle{
+		  display: flex;
+		  margin: auto;
+		  float: right;
+		  span{
+			padding-top: 9px;
+			margin-left: 5px;
+		  }
+	   }
+	  .dropdown-toggle::after{
+		margin-top: 18px;
+		  @media screen and (max-width: 525px){
+			 display: none;
+		  }
+	  }
+}

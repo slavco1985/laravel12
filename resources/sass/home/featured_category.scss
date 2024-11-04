@@ -1,0 +1,41 @@
+.featured-category{
+    @include big-padding();
+    .fcatrow{
+        .fcatcol{
+            text-align: center;
+            
+            .fcat{
+                background-color: #FFF;
+                padding: 20px;
+                box-shadow: 0 7px 19px 1px rgba(7, 48, 61, 0.07);
+                p{
+                    font-weight: 400;
+                    margin-top: 10px;
+                    font-size: 1.1rem;
+                    margin-bottom: 0px;
+                }
+                i{
+                   font-size: 2.7rem;
+                   color: rgba(0, 0, 0, 0.5) !important;;
+                }
+                .icon{
+                    background: rgba(0, 20, 142, 0.04);
+                    border-radius: 50px;
+                    width: 70px;
+                    height: 70px;
+                    padding: 15px;
+                }
+                .bx{
+                    padding-top: 14px;
+                }
+                svg{
+                    padding-top: 14px;
+                    width: 48px;
+                    height: 48px;
+                    margin: 0 auto;
+                    fill: rgba(0, 0, 0, 0.5) !important;
+                }
+            }
+        }
+    }
+}
